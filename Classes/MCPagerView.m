@@ -105,7 +105,7 @@
         [self addSubview:imageView];
         [_pageViews addObject:imageView];
         
-        xOffset = xOffset + frame.size.width;
+        xOffset = xOffset + frame.size.width*3;
     }
 }
 
